@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "serve -s build"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,8 @@
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "knex": "^0.19.5",
-    "pg": "^7.4.0"
+    "pg": "^7.4.0",
+    "serve": "^11.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
