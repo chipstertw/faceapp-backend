@@ -15,7 +15,7 @@ const db = knex({
 	connection: {
 		connectionString: process.env.DATABASE_URL,
 		ssl: true,
-	}
+	  }	
 });
 
 const app = express();
@@ -45,6 +45,6 @@ app.post('/imageurl', (req, res) => {
 // });
 
 app.listen(process.env.PORT || 3000, () => {
-	console.log(`App is running on port ${process.env.PORT}`);
-	
-	});
+	console.log(`app is running on port ${process.env.PORT}`);
+  });
+  
